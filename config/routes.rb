@@ -1,4 +1,6 @@
 GoogleMapsAPI::Application.routes.draw do
+  resources :addresses
+
   resources :zip_codes
 
   # The priority is based upon order of creation: first created -> highest priority.
